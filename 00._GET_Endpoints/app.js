@@ -3,7 +3,8 @@
 const express = require("express");
 const app = express();  
 
-//Defines a constant variable birds that is assigned an array of objects.
+//Defines a constant variable birds that is assigned an array of bird objects.
+//This is done to have some in memory data for the HTTP responses.
 const birds = [{name: "Crow", id: "1"}, {name: "Raven", id: "2"}
 ,{ name: "Woodpecker", id: "3"}];
 
